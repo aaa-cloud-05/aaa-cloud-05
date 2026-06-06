@@ -1,19 +1,17 @@
 ## About me
 
-Computer Science student at The University of Electro-Communications.
-(国立大学法人電気通信大学 情報理工学域 Ⅰ類 コンピュータサイエンスプログラム)
+国立大学法人電気通信大学 情報理工学域 Ⅰ類 コンピュータサイエンスプログラム B3
 
-* Interested in:
-  * ...
-* Certification :
+大学では主に、アルゴリズム, ネットワーク, データベース, オペレーティングシステムを学習しています。授業外では、Next.js、TypeScript、Supabaseなどを用いた個人開発に取り組んでいます。
+
+* 資格 :
   * 2024/09 : 基本情報技術者試験　合格
   * 2025/12 : 応用情報技術者試験　合格
   * 2026/05 : TOEIC Listening & Reading Test IP　735点　取得
-* Competitive programming & algorithm
 
 ---
 
-## 🛠 Tech Stack
+## 技術スタック
 
 **Frontend / Mobile**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
@@ -42,32 +40,86 @@ Computer Science student at The University of Electro-Communications.
 
 ---
 
-## 📌 Projects
+## 開発したプロジェクト 
 
 ### [Scheduling App](https://github.com/aaa-cloud-05/Calendar-app)
 
-...
+URL 共有型の日程調整アプリです。
+既存の日程調整サービスを利用する中で、参加可否の温度感が伝わりにくいこと、関連情報が分散しやすいこと、日程確定の理由がわかりにくいことに課題を感じ、開発しました。
+
+○ △ × 回答だけでなく、タグによる詳細な意思表示や、関連情報を一覧できる設計にすることで、日程調整における意思決定をしやすくすることを目指しました。
+
+#### 使用技術
+
+- TypeScript
+- Next.js
+- Supabase
+- PostgreSQL
+- shadcn/ui
+- Tailwind CSS
 
 ---
 
 ### [Full-stack TODO App](https://github.com/aaa-cloud-05/TODO-app_with_supabase_nextjs)
 
-...
+React とフロントエンド開発の基礎を、実プロダクトに近い形で学ぶことを目的に開発したTODOアプリです。
+Next.js と Supabase を用いて、認証機能やデータ保存を含むフルスタック構成を実装しました。
+
+ログイン状態によって TODO データの保持方法を切り替え、未ログイン時のデータをログイン後に引き継げるようにするなど、実際の利用シーンを意識して設計しました。
+
+使用技術
+
+- TypeScript
+- Next.js
+- React
+- Supabase
+- Supabase Auth
+- PostgreSQL
+- shadcn/ui
+- Tailwind CSS
 
 ---
 
-### Clipboard Workspace
+### [Clipboard Workspace](https://github.com/aaa-cloud-05/clipboard-manager)
 
-...
+Flutter で開発したクリップボード管理デスクトップアプリです。
+コピー(ctrl + c)を単なる一時的な操作ではなく、情報を保存・蓄積・再利用する行為として捉え直し、作業中に発生する情報を自動で保存し、後で編集・再利用できるワークスペースとして設計しました。
+
+文章、コード、URL などを連続してコピーする場面で、それぞれの内容を個別に保存できるようにすることで、作業中に一時的に発生する情報を失わず、必要に応じて整理・再利用できることを目指しました。
+
+将来的には、AI をアプリ内に導入し、コピーした内容を自動で分類、タグ付け、要約できるようにすることで、日々の作業中に蓄積される情報をナレッジとして整理できる仕組みに発展させたいと考えています。
+
+使用技術
+
+- Flutter
+- Dart
 
 ---
 
-## 🌱 Currently Learning
+## 現在学習していること
 
-* ...
+* AWS を用いた Web アプリケーション構築
+
+  * Cognito / Lambda / API Gateway / DynamoDB などの基礎
+ 
+* LLM API を活用したアプリケーション開発
+  * RAG の基礎知識
+
+* AI 駆動開発の適切な手法
+  * 要件定義、DB/API設計、タスクを Markdown で整理し、AI に文脈を与えながら開発を進める方法
+
+* チーム開発に向けた開発フロー
+  * Git / GitHub、Pull Request
 
 ---
 
-## 📫 Contact
+## 外部リンク
+
+* Zenn : [https://zenn.dev/beta](https://zenn.dev/beta)
+* AtCoder : [https://atcoder.jp/users/aaa__](https://atcoder.jp/users/aaa__)
+* 日程調整アプリ(未実装部分あり) : [https://quick-plan-wine.vercel.app/](https://quick-plan-wine.vercel.app/)
+* TODOアプリ : [https://todo-app-with-supabase-nextjs-beta.vercel.app/](https://todo-app-with-supabase-nextjs-beta.vercel.app/)
+
+## ご連絡
 
 * email : t2413648@gl.cc.uec.ac.jp
