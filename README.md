@@ -40,7 +40,7 @@
 
 ---
 
-## 開発したプロジェクト 
+## 主なリポジトリ (詳細は各リポジトリのREADMEに記載しています)
 
 ### [Scheduling App](https://github.com/aaa-cloud-05/Calendar-app)
 
