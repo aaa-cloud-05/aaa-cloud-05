@@ -45,9 +45,15 @@
 
 大学で主要なLMS(google classroom, webclass)の課題を取得・集約し、締め切り通知・カレンダー表示・ダッシュボード化をするアプリです。
 
-Claude Codeを用いてAI駆動開発を行っています。[詳細](https://github.com/aaa-cloud-05/class-pilot/pulls?q=is%3Apr+is%3Aclosed)
+Claude Codeを用いてAI駆動開発を行っています。[詳細](https://github.com/aaa-cloud-05/class-pilot/commits/main/)
 
-現在、開発中でドキュメントは書いていません。
+現在、開発中でREADMEは書いていませんが、主要な意思決定やデータフローはdocs/にまとめています。
+
+#### 使用技術
+
+![Skills](https://go-skill-icons.vercel.app/api/icons?i=typescript,react,nextjs,resend,prisma,gcp,supabase,vercel,claude)
+
+---
 
 ### [Scheduling App](https://github.com/aaa-cloud-05/Calendar-app)
 
